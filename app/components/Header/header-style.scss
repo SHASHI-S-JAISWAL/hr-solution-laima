@@ -1,0 +1,40 @@
+.headerWrapper {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  .header {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    background-image: linear-gradient(to right, #2193b0, #6dd5ed);
+    img {
+      margin: 20px;
+      height: 70px;
+      width: auto;
+    }
+  }
+  .menuWrapper {
+    position: absolute;
+    bottom: 40;
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 40px;
+    background-image: linear-gradient(
+      to top,
+      rgba(1, 0, 0, 0),
+      rgba(1, 0, 0, 0.7)
+    );
+
+    .menuTile {
+      font-weight: 600;
+      color: #fff;
+      padding: 10px 20px;
+    }
+  }
+}

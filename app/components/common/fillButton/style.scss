@@ -1,0 +1,74 @@
+@use "../../variable.scss" as v;
+
+$color: v.$primary-colour;
+
+//https://webdeasy.de/en/top-css-buttons-en/
+.filler-button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: darken($color, 15%);
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  &:hover {
+    color: #fff;
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+.spots-animation {
+  &:hover {
+    @for $i from 0 through 60 {
+      &:nth-of-type(#{$i}) {
+        top: (16px - random(10)) - 0 !important;
+        left: -34px !important;
+        opacity: 0;
+        padding: random(20) / 4 + 2 + px !important;
+        animation: spew 1s 0.3s forwards,
+          rotate 4s + random(4) / 10 0.25s + random(12) / 10 linear infinite,
+          final 0.2s 4s forwards,
+          spot-#{$i}
+            0.7s
+            0.4 /
+            random
+            (10) +
+            random(10) /
+            10 +
+            10s
+            linear
+            infinite !important;
+      }
+    }
+  }
+}

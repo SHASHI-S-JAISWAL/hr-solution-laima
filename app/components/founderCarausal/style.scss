@@ -1,0 +1,32 @@
+.founderWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  overflow: scroll;
+  background-color: #09233d;
+  .founderTile {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    width: 260px;
+    margin: 0px 30px;
+  }
+  .socImg {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 10px;
+  }
+}
+.founderCorner {
+  background-color: #09233d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .title {
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+}

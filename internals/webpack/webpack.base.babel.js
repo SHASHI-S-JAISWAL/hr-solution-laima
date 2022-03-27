@@ -59,13 +59,13 @@ module.exports = options => ({
         ],
       },
       {
-        test: /\.(jpg|png|gif)$/,
+        test: /\.(jpg|png|gif|jpeg)$/,
         use: [
           {
             loader: 'url-loader',
             options: {
-              // Inline files smaller than 10 kB
-              limit: 10 * 1024,
+              // Inline files smaller than 100 kB
+              limit: 100 * 1024,
             },
           },
           {
@@ -104,6 +104,20 @@ module.exports = options => ({
             limit: 10000,
           },
         },
+      },
+      {
+        test: /\.scss$/,
+        use: [
+          {
+            loader: 'style-loader', // creates style nodes from JS strings
+          },
+          {
+            loader: 'css-loader', // translates CSS into CommonJS
+          },
+          {
+            loader: 'sass-loader', // compiles Sass to CSS
+          },
+        ],
       },
     ],
   },

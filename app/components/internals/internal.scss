@@ -1,0 +1,97 @@
+@use "../variable.scss" as v;
+@import '../common.scss';
+@import '../common/fillButton/style.scss';
+
+.mission-wrapper {
+  background-color: v.$cream-background-colour;
+  padding: 20px 12%;
+  font-family: EudaldNews-Roman;
+
+  .header {
+    text-align: center;
+    text-transform: uppercase;
+    color: v.$primary-colour;
+  }
+  .title {
+    color: v.$primary-colour;
+  }
+  .text {
+    color: v.$text-colour;
+    text-align: justify;
+  }
+}
+
+.enquire-wrapper {
+  background-color: v.$primary-colour;
+  padding: 30px 12%;
+  font-family: EudaldNews-Roman;
+  text-align: center;
+  .header {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+  }
+  .title {
+    color: #fff;
+  }
+  .text {
+    color: #fff;
+  }
+}
+
+.tiles-wrapper {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+
+  .hover-tile {
+    min-width: 30%;
+    min-height: 200px;
+    padding: 30px;
+    @media screen and (max-width: v.$phone-width) {
+      min-width: 300px;
+    }
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text {
+      color: #fff;
+    }
+  }
+  .title {
+    color: #fff;
+  }
+  .hover-tile.num-0 {
+    background-color: #af4a19;
+  }
+  .hover-tile.num-1 {
+    background-color: #b77e2b;
+  }
+  .hover-tile.num-2 {
+    background-color: #4e6624;
+  }
+  .hover-tile.num-3 {
+    background-color: #365568;
+  }
+  .main-tile {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a79f87;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media screen and (max-width: v.$phone-width) {
+      min-width: 300px;
+      min-height: 200px;
+    }
+  }
+  .tile-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
