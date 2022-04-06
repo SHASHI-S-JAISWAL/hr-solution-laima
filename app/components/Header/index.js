@@ -1,5 +1,6 @@
 import { Menu, MenuItem } from '@material-ui/core';
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/BISHOPSCOTTLOGO.png';
 import './header-style.scss';
 import {
@@ -29,7 +30,9 @@ function Header() {
   return (
     <HeaderWrapper>
       <HeaderComp>
-        <HeaderImg src={Logo} alt=" Logo loading..." />
+        <Link to="/">
+          <HeaderImg src={Logo} alt=" Logo loading..." />
+        </Link>
       </HeaderComp>
       <MenuWrapper>
         {menuArray.map(i => (

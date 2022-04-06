@@ -22,6 +22,9 @@ import WhyPage from '../whyPage';
 import ContactPage from '../contactPage';
 import OverViewPage from '../admissionOverView';
 import { KnowPage, VisionMissionPage, LogoPage } from '../About';
+import EnquiryPage from '../About/Enquiry';
+import TeamPage from '../About/TeamPage';
+import FoundersPage from '../About/FoundersPage';
 
 const AppWrapper = styled.div`
   // max-width: calc(768px + 16px * 2);
@@ -46,15 +49,16 @@ export default function App() {
         <Route exact path="/" component={HomePage} />
         <Route exact path="/about/know-bishop-scott" component={KnowPage} />
         <Route exact path="/about/logo" component={LogoPage} />
+        <Route exact path="/about/team" component={TeamPage} />
+        <Route exact path="/about/founders" component={FoundersPage} />
         <Route
           exact
           path="/about/vision-and-missions"
           component={VisionMissionPage}
         />
-
         {/* <Route exact path="/" component={HomePage} />
         <Route exact path="/" component={HomePage} /> */}
-
+        <Route path="/enquiry" component={EnquiryPage} />
         <Route path="/features" component={FeaturePage} />
         <Route path="/why-bishop-scott" component={WhyPage} />
         <Route path="/contact" component={ContactPage} />

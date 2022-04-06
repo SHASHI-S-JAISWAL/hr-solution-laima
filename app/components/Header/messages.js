@@ -20,13 +20,13 @@ export default defineMessages([
       },
       {
         title: 'Team',
-        link: '/team',
+        link: '/about/team',
       },
-      {
-        title: 'Brochure',
-        link: null,
-        downloadLink: '',
-      },
+      // {
+      //   title: 'Brochure',
+      //   link: null,
+      //   downloadLink: '',
+      // },
     ],
   },
   {
@@ -54,7 +54,7 @@ export default defineMessages([
     title: 'Partner with Us',
     submenu: [
       { title: 'Why Bishop Scott', link: '/why-bishop-scott' },
-      { title: 'Enquiry', link: null },
+      { title: 'Enquiry', link: 'enquiry' },
     ],
   },
   {
