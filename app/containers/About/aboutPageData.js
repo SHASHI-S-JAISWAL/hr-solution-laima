@@ -11,24 +11,24 @@ export default defineMessages({
     `To provide a learner-centric education for children so they can achieve their full potential in the respective fields of education they wish to pursue and build a better world by being competitive, productive and responsible citizens.`,
   ],
   missions: [
-    `To provide a safe learning environment and prospect for holistics development of students`,
-    `To create responsible and independent golab citizens`,
+    `To provide a safe learning environment and prospect for Holistic development of students`,
+    `To create responsible and independent global citizens`,
     `To ignite minds to dream big`,
     `To build life-long learners, thinkers and leaders and allow each student to be an achiever`,
-    `To inculcate cardinal values for a successful human being such as “Never mistake knowledge for wisdom; one helps you to make a living; the other helps you to make a life.`,
+    `To inculcate cardinal values for a successful human being such as “Never mistake knowledge for wisdom; one helps you to make a living; the other helps you to make a life".`,
   ],
   knowBishopScott: [
-    `Bishop Scott Group is a syndicate of K-12 and primary schools located in the state of Bihar. The aim of the group is to provide structure and discipline imperative to the development of each child right from the formative years. `,
+    `Bishop Scott Group is a syndicate of K-12 and primary schools located in the state of Bihar. The aim of the group is to provide structure and discipline imperative to the development of each child, right from the formative years. `,
     `The inception of our group transpired with the establishment of Bishop Scott Girls' School in 2009. This school got affiliated to CBSE 10+2 curriculum in the year 2011.`,
-    `Today, the syndicate consists of four campuses- three K-12 schools affiliated to CBSE 10+2 and one primary school. The other two K-12 campuses- Bishop Scott Senior Secondary Girls’ School and Bishop Scott Boys’ School were launched in 2015 and have been affiliated to CBSE 10+2 in the following years.`,
+    `Today, the syndicate consists of four campuses- three K-12 schools affiliated to CBSE 10+2 and one primary school. The other two K-12 campuses- Bishop Scott Senior Secondary Girls' School and Bishop Scott Boys' School were launched in 2015 and have been affiliated to CBSE 10+2 in the following years.`,
     `The essence of Bishop Scott Group is to build an environment for children to achieve academic grace, maturity, strong character and integrity that enables them to face the challenges of the real world. Resolute to impart knowledge which is not limited to classrooms but reaches beyond into various creative aspects of the child, providing a balance between academics and co-curricular activities ensuring the holistic development of each child. `,
-    `The Bishop Scott community entails teachers, students, academicians and professionals imbued with the spirit of freedom, mutual trust and respect. Developed on the pattern of missionaries, it creates a strong sense of discipline, love and humanity. `,
-    `Bishop Scott is one of top tier home-grown brands in the sector of education at Patna, which has successfully been imparting quality education for a decade. `,
+    `The Bishop Scott community entails teachers, students, academicians and professionals imbued with the spirit of freedom, mutual trust and respect. Developed on the pattern of missionary, it creates a strong sense of discipline, love and humanity. `,
+    `Bishop Scott is one of the top tier home-grown brands in the sector of education at Patna, which has successfully been imparting quality education for a decade. `,
   ],
-  logo: `The Bishop Scott logo represents the 'Enlightenment' of society. The sunrays emerging out of a book is a symbol of gleaming/enlightening the society by educating the children and them radiating limitlessly into the world with skills and knowledge acquired here. Each member of the Bishop Scott community ‘gleams with pride and prosperity`,
+  logo: `The Bishop Scott logo represents the 'Enlightenment' of society. The sunrays emerging out of a book is a symbol of enlightening the society by educating the children and them radiating limitlessly into the world with skills and knowledge acquired here. Each member of the Bishop Scott community "Gleams with pride and prosperity".`,
   founders: [
     {
-      name: 'Late Shailesh Prasad Singh',
+      name: 'Late. Shailesh Prasad Singh',
       text: [
         ` यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः । स यत्प्रमाणं कुरुते लोकस्तदनुवर्तते ॥`,
         `“Whatever action a great man performs, common men follow. And whatever standards he sets by exemplary acts, all the world pursues.” ~ The Śrīmad-Bhāgavatam`,
@@ -56,23 +56,6 @@ export default defineMessages({
         `An ardent admirer of Warren Buffett, Mr. Singh harmoniously relates with Warren Buffet who famously said that he wants to give his children “just enough so that they would feel that they could do anything, but not so much that they would feel like doing nothing.” By virtue of his savoir-faire, he expounds the best relationship with money. “Prior to investing in anything else, invest in yourself, your skills, your education, your experiences.”  This is the bazillion dollar advice to all parents and students from the financial samurai of Bishop Scott.`,
       ],
     },
-
-    {
-      name: 'Ms. Mrigaya Singh',
-      text: [
-        `A princess with the strength of a warrior, she is Ms. Mrigaya Singh, the daughter of the Late Shailesh Prasad Singh and Smt. Arti Singh. Her upbringing by principled parents and her education at St. Joseph's Convent High School intrinsically instilled her psyche with the belief that service to others is the highest religion, and working for the greater good is the greatest creed. `,
-
-        `With a vision to bring changes to the world and fight for the rights of the unheard, she set on to study law. Her understanding of law is both appealing and indelible. In it, she resonates with Steven Keeva. In much the same way that medicine heals the body and the clergy heals the soul, law heals rifts between society. `,
-
-        `In law school, she interned with many a big kahuna scilicet, Mr. Tushar Mehta, the honourable Solicitor General of India, and Mr. Vikramjeet Banerjee, the esteemed Additional Solicitor General. She rubs elbows with the best.`,
-
-        `In the pursuit of acquiring skills, she did a certified course in Business Continuity Management. A language enthusiast, she also holds a certificate in the German language. `,
-
-        `After completing her double graduation, BA LLB (Hons.) from Amity Law School, Amity University, she associates herself with the Bishop Scott Group of Schools. She carries the profile of Director, Legal Affairs and Operations. In reality, it should be phrased that Portia mentors the education ecosystem. Blessed with the innovative mindset to gratify the exigencies of the young generation, she envisages the flagbearers of tomorrow to be groomed with the power to create, nurture, and transform.`,
-        `It is raved, that every interaction with her leaves the team players nourished intellectually. This is the tiara she wears as a mark of honour sublime.`,
-      ],
-    },
-
     {
       name: 'Mrs. Nutan Singh',
       text: [
@@ -85,6 +68,21 @@ export default defineMessages({
         `With the leverage of soft skills fortified with compendious knowledge of indigenous industries,  she was able to substantially increase their financial viability by plugging the hole of contrived taxes and duties. Not restricted to it, in association with bureaucrats of the Ministry of Commerce, and the Ministry of Defence, Government of India, soon she progressed as an interface between industry and governance. `,
 
         `An interesting shade of her persona is her faith in Aristotle, the ancient Greek philosopher. “Educating the mind without educating the heart is no education at all.” This indubitably is an affinity-premised asset for the education world.  The beauty of her intelligence, her precision, and the enchantment of her empathy shine into the soul of the schools of Bishop Scott group. `,
+      ],
+    },
+    {
+      name: 'Ms. Mrigya Singh',
+      text: [
+        `A princess with the strength of a warrior, she is Ms. Mrigya Singh, the daughter of the Late Shailesh Prasad Singh and Smt. Arti Singh. Her upbringing by principled parents and her education at St. Joseph's Convent High School intrinsically instilled her psyche with the belief that service to others is the highest religion, and working for the greater good is the greatest creed. `,
+
+        `With a vision to bring changes to the world and fight for the rights of the unheard, she set on to study law. Her understanding of law is both appealing and indelible. In it, she resonates with Steven Keeva. In much the same way that medicine heals the body and the clergy heals the soul, law heals rifts between society. `,
+
+        `In law school, she interned with many a big kahuna scilicet, Mr. Tushar Mehta, the honourable Solicitor General of India, and Mr. Vikramjeet Banerjee, the esteemed Additional Solicitor General. She rubs elbows with the best.`,
+
+        `In the pursuit of acquiring skills, she did a certified course in Business Continuity Management. A language enthusiast, she also holds a certificate in the German language. `,
+
+        `After completing her double graduation, BA LLB (Hons.) from Amity Law School, Amity University, she associates herself with the Bishop Scott Group of Schools. She carries the profile of Director, Legal Affairs and Operations. In reality, it should be phrased that Portia mentors the education ecosystem. Blessed with the innovative mindset to gratify the exigencies of the young generation, she envisages the flagbearers of tomorrow to be groomed with the power to create, nurture, and transform.`,
+        `It is raved, that every interaction with her leaves the team players nourished intellectually. This is the tiara she wears as a mark of honour sublime.`,
       ],
     },
   ],

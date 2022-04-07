@@ -9,18 +9,23 @@ export const scope = 'boilerplate.components.Header';
 
 export default defineMessages([
   {
+    title: 'Home',
+    link: '/',
+    submenu: [],
+  },
+  {
     title: 'About',
     submenu: [
       { title: 'Know Bishop Scott', link: '/about/know-bishop-scott' },
       { title: 'The Founders', link: '/about/founders' },
+      {
+        title: 'Team',
+        link: '/about/team',
+      },
       { title: 'Vision and Mission', link: '/about/vision-and-missions' },
       {
         title: 'Logo',
         link: '/about/logo',
-      },
-      {
-        title: 'Team',
-        link: '/about/team',
       },
       // {
       //   title: 'Brochure',
@@ -34,14 +39,14 @@ export default defineMessages([
     submenu: [
       { title: 'Overview', link: '/admissions/overview' },
       {
-        title: 'Bishop Scott Girls’ School',
+        title: `Bishop Scott Girls' School`,
         link: null,
         externalLink: 'http://bishopscottschool.com/admissions.html',
       },
       {
         title: `Bishop Scott Senior Secondary Girls’ School`,
         link: null,
-        externalLink: 'http://bishopscottschool.com/admissions.html',
+        externalLink: 'http://www.bishopscottssgs.com/en/',
       },
       {
         title: `Bishop Scott Boys’ School`,

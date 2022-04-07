@@ -8,8 +8,13 @@ import SwiperCore, { Navigation, Pagination } from 'swiper';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './swiperStyle.scss';
+import 'swiper/swiper.scss';
 import Carausal1 from '../../assets/carausal-1.jpeg';
 import Carausal2 from '../../assets/carausal-2.jpeg';
+import Carausal3 from '../../assets/carausal-3.jpeg';
+import Carausal4 from '../../assets/carausal-4.jpeg';
+import Carausal5 from '../../assets/carausal-5.jpeg';
+import Carausal6 from '../../assets/carausal-6.jpeg';
 
 // install Swiper modules
 SwiperCore.use([Pagination, Navigation]);
@@ -17,7 +22,11 @@ SwiperCore.use([Pagination, Navigation]);
 export default function ImageSwiper() {
   const imageArray = [
     Carausal1,
-    // Carausal2,
+    Carausal2,
+    Carausal3,
+    Carausal4,
+    Carausal5,
+    Carausal6,
     // require('../../assets/carausal-1.jpeg'),
     // require('../../assets/carausal-2.jpeg'),
     // require('../../assets/carausal-3.jpeg'),
@@ -31,16 +40,17 @@ export default function ImageSwiper() {
   return (
     <>
       <Swiper
-        // pagination={{
-        //   clickable: "true",
-        // }}
-        // loop={true}
-        // navigation={true}
-        className="mySwiper "
+        pagination={{
+          clickable: 'true',
+        }}
+        loop
+        navigation
+        className="mySwiper"
+        style={{ position: 'relative', marginTop: -40, bottom: 0 }}
       >
         {imageArray.map(i => (
           <SwiperSlide>
-            <img alt="loading..." src={i} className={'swiperImage'} />
+            <img alt="loading..." src={i} className="swiperImage" />
           </SwiperSlide>
         ))}
       </Swiper>

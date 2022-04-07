@@ -33,6 +33,9 @@ function Header() {
         <Link to="/">
           <HeaderImg src={Logo} alt=" Logo loading..." />
         </Link>
+        <div className="seven">
+          <h1>BISHOP SCOTT GROUP OF SCHOOLS</h1>
+        </div>
       </HeaderComp>
       <MenuWrapper>
         {menuArray.map(i => (

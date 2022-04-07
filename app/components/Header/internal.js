@@ -13,11 +13,13 @@ export const HeaderComp = styled.div`
   display: flex;
   flex: 1;
   justify-content: flex-start;
+  align-items: center;
   background-image: linear-gradient(to right, #ffa500, #ff8c00);
 `;
 
 export const HeaderImg = styled.img`
   margin: 20px;
+  margin-left: 40px;
   height: 70px;
   width: auto;
 `;

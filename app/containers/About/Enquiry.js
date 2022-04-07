@@ -1,14 +1,11 @@
 import React, { memo } from 'react';
-import {
-  PageTitle,
-  PageWrapper,
-} from '../../components/common/commonContainers';
+import { PageWrapper } from '../../components/common/commonContainers';
 
 const EnquiryPage = memo(() => (
   <PageWrapper>
-    <PageTitle className="MuiTypography--heading" variant="h4" gutterBottom>
+    {/* <PageTitle className="MuiTypography--heading" variant="h4" gutterBottom>
       LOGO
-    </PageTitle>
+    </PageTitle> */}
     <div>
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSegwO7U08mF2AGs6N6kINwuhDxusXrtWMWlJFs_KIF45BxzuA/viewform?embedded=true"

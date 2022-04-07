@@ -59,6 +59,7 @@ export default function App() {
         {/* <Route exact path="/" component={HomePage} />
         <Route exact path="/" component={HomePage} /> */}
         <Route path="/enquiry" component={EnquiryPage} />
+        <Route path="/about/enquiry" component={EnquiryPage} />
         <Route path="/features" component={FeaturePage} />
         <Route path="/why-bishop-scott" component={WhyPage} />
         <Route path="/contact" component={ContactPage} />

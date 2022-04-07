@@ -12,7 +12,7 @@ export default defineMessages([
   {
     Title: 'ACADEMIC',
     messages: [
-      `Experienced and highly qualified R&D team creates and upgrades the unique Birla curriculum that merges seamlessly with various Indian and international boards.`,
+      `Experienced and highly qualified R&D team creates and upgrades the unique curriculum that fufills seamlessly the needs of various policies of the Indian education system. `,
       `Providing detailed teacher manual, creative worksheets, appropriate flash cards and videos and all the required resources.`,
       `Providing specialised plans for summer camp, sports day and annual day`,
     ],
@@ -20,7 +20,7 @@ export default defineMessages([
   {
     Title: 'TEACHER TRAINING & SUPPORT',
     messages: [
-      `Teacher Training Workshops are conducted by the R & D team of Birla Edutech Ltd for teachers at regular intervals to ensure quality of teaching is at par with international standards.`,
+      `Teacher Training Workshops are conducted by the R & D team for teachers at regular intervals to ensure the quality of teaching is maintained.`,
       `The workshop modules focus on cutting edge learning approaches in every subject; induction and enrichment training; learner centric activities, interactive lessons and blended solutions.`,
       `Teachers are observed through onsite Teacher Support Rounds and counselled one on one to ensure seamless execution of the curriculum in the classroom environment.`,
     ],
