@@ -42,7 +42,7 @@ export default function App() {
         titleTemplate="Bishop Scott Group"
         defaultTitle="Bishop Scott Group"
       >
-        <meta name="description" content="A React.js Boilerplate application" />
+        <meta name="description" content="Bishop Scott Group" />
       </Helmet>
       <Header />
       <Switch>

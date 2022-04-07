@@ -45,6 +45,7 @@ export default function ImageSwiper() {
         }}
         loop
         navigation
+        lazy
         className="mySwiper"
         style={{ position: 'relative', marginTop: -40, bottom: 0 }}
       >
