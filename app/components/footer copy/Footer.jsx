@@ -33,7 +33,7 @@ const Footer = props => {
         'https://www.linkedin.com/in/bishop-scott-girls-school-72bb39226',
     },
     {
-      title: 'BISHOP SCOTT SENIOR SECONDART GIRLS’ SCHOOL',
+      title: 'BISHOP SCOTT SENIOR SECONDARY GIRLS’ SCHOOL',
       facebook: 'https://www.facebook.com/bsssgs',
       instagram: 'https://www.instagram.com/bishopscottsenior/',
       linkedIn: `//www.linkedin.com/mynetwork/`,

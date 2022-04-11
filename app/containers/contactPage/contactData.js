@@ -5,16 +5,14 @@ import GirlsImage from './assets/girls.png';
 export default defineMessages([
   {
     title: 'Bishop Scott Girls’ School',
-    mapLink:
-      'https://www.google.com/search?q=bishop%20scott%20school%20patna&rlz=1C5CHFA_enIN970IN970&ei=_u01YtnLBJiSseMP6tWOiAs&oq=bishop+scott+school&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCAAQgAQyBggAEAcQHjIFCAAQgAQyBQgAEIAEMgYIABAHEB4yBQgAEIAEMgYIABAHEB4yBQgAEIAEMgsILhCABBDHARCvATIGCAAQBxAeOgcIABBHELADOgcIABCwAxBDOgoIABDkAhCwAxgBOhIILhDHARCvARDIAxCwAxBDGAI6BAgAEA06CgguEMcBEK8BEA1KBAhBGABKBAhGGAFQ3wxY0hRg5BxoAXABeACAAZgBiAGfBpIBAzAuNpgBAKABAcgBE8ABAdoBBggBEAEYCdoBBggCEAEYCA&sclient=gws-wiz&tbs=lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:2&tbm=lcl&rflfq=1&num=10&rldimm=727793377366970348&lqi=ChliaXNob3Agc2NvdHQgc2Nob29sIHBhdG5hSJnA66qYgoCACFopEAAQARACGAAYARgCGAMiGWJpc2hvcCBzY290dCBzY2hvb2wgcGF0bmGSAQZzY2hvb2yqARsQASoXIhNiaXNob3Agc2NvdHQgc2Nob29sKAA&ved=2ahUKEwjqmYG5ttL2AhVDSGwGHdL4AgcQvS56BAgCECE&rlst=f#',
+    mapLink: `https://www.google.com/maps/dir/25.5922549,85.171266/Bishop+Scott+Girls'+School,+Jaganpura+near+Bishop+Scott+girls+school+Pragati+Bihar+Colony,+Patna,+Bihar+800020/@25.5828204,85.1541055,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39f2a7798290f325:0xa19a4387fd70fec!2m2!1d85.1523042!2d25.5733853`,
     address: `Brahmpur, Jaganpura, Kankarbagh (by-pass) Patna -800027`,
     phoneNo: '09471003549',
     image: GirlsImage,
   },
   {
     title: `Bishop Scott Senior Secondary Girls’ School`,
-    mapLink:
-      'https://www.google.com/search?q=bishop%20scott%20school%20patna&rlz=1C5CHFA_enIN970IN970&ei=_u01YtnLBJiSseMP6tWOiAs&oq=bishop+scott+school&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCAAQgAQyBggAEAcQHjIFCAAQgAQyBQgAEIAEMgYIABAHEB4yBQgAEIAEMgYIABAHEB4yBQgAEIAEMgsILhCABBDHARCvATIGCAAQBxAeOgcIABBHELADOgcIABCwAxBDOgoIABDkAhCwAxgBOhIILhDHARCvARDIAxCwAxBDGAI6BAgAEA06CgguEMcBEK8BEA1KBAhBGABKBAhGGAFQ3wxY0hRg5BxoAXABeACAAZgBiAGfBpIBAzAuNpgBAKABAcgBE8ABAdoBBggBEAEYCdoBBggCEAEYCA&sclient=gws-wiz&tbs=lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:2&tbm=lcl&rflfq=1&num=10&rldimm=727793377366970348&lqi=ChliaXNob3Agc2NvdHQgc2Nob29sIHBhdG5hSJnA66qYgoCACFopEAAQARACGAAYARgCGAMiGWJpc2hvcCBzY290dCBzY2hvb2wgcGF0bmGSAQZzY2hvb2yqARsQASoXIhNiaXNob3Agc2NvdHQgc2Nob29sKAA&ved=2ahUKEwjqmYG5ttL2AhVDSGwGHdL4AgcQvS56BAgCECE&rlst=f#',
+    mapLink: `https://www.google.com/maps/dir/25.5922549,85.171266/H5C4%2BHHQ+Bishop+Scott+Senior+Secondary+Girl's+School,+Aadarsh+Colony,+East+Lakshmi+Nagar,+Nayachak,+Patna,+Bihar+800007/@25.5750983,85.1567413,17z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39f2a77a9c83aeb5:0x9e75a8e0e3c004ba!2m2!1d85.1566232!2d25.5714373`,
     address: 'Brahmpur, Jaganpura, Kankarbagh (by-pass) Patna -800027',
     phoneNo: '09471003549',
     image: GirlsImage,
@@ -23,8 +21,7 @@ export default defineMessages([
     title: `Bishop Scott Boys’ School`,
     address: `Chainpur, New Jaganpura, Patna - 804453`,
     phoneNo: '07061717782',
-    mapLink:
-      'https://www.google.com/search?q=bishop%20scott%20school%20patna&rlz=1C5CHFA_enIN970IN970&ei=_u01YtnLBJiSseMP6tWOiAs&oq=bishop+scott+school&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCAAQgAQyBggAEAcQHjIFCAAQgAQyBQgAEIAEMgYIABAHEB4yBQgAEIAEMgYIABAHEB4yBQgAEIAEMgsILhCABBDHARCvATIGCAAQBxAeOgcIABBHELADOgcIABCwAxBDOgoIABDkAhCwAxgBOhIILhDHARCvARDIAxCwAxBDGAI6BAgAEA06CgguEMcBEK8BEA1KBAhBGABKBAhGGAFQ3wxY0hRg5BxoAXABeACAAZgBiAGfBpIBAzAuNpgBAKABAcgBE8ABAdoBBggBEAEYCdoBBggCEAEYCA&sclient=gws-wiz&tbs=lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:2&tbm=lcl&rflfq=1&num=10&rldimm=727793377366970348&lqi=ChliaXNob3Agc2NvdHQgc2Nob29sIHBhdG5hSJnA66qYgoCACFopEAAQARACGAAYARgCGAMiGWJpc2hvcCBzY290dCBzY2hvb2wgcGF0bmGSAQZzY2hvb2yqARsQASoXIhNiaXNob3Agc2NvdHQgc2Nob29sKAA&ved=2ahUKEwjqmYG5ttL2AhVDSGwGHdL4AgcQvS56BAgCECE&rlst=f#',
+    mapLink: `https://www.google.com/maps/dir/25.5922549,85.171266/Bishop+Scott+Boys%E2%80%99+School,+Brahmpur,+Jaganpura+Lane,+Bypass+Kankarbagh,+Patna,+Bihar+800027/@25.5684184,85.1440606,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x39f2a7741ed0bcd3:0x9f5f75cae933a467!2m2!1d85.152081!2d25.5445961`,
     image: BoysImage,
   },
 ]);
