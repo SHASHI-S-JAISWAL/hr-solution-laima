@@ -6,7 +6,7 @@ import {
   LogoImg,
 } from '../../components/common/commonContainers';
 import aboutPageData from './aboutPageData';
-import Logo from '../../assets/BISHOPSCOTTLOGO.png';
+import Logo from '../../assets/logo.jpeg';
 
 const AdmissionOverview = memo(() => (
   <PageWrapper>

@@ -15,18 +15,19 @@ export default defineMessages([
   },
   {
     title: 'About',
+    link: '/about',
     submenu: [
-      { title: 'Know Bishop Scott', link: '/about/know-bishop-scott' },
-      { title: 'The Founders', link: '/about/founders' },
-      {
-        title: 'Team',
-        link: '/about/team',
-      },
-      { title: 'Vision and Mission', link: '/about/vision-and-missions' },
-      {
-        title: 'Logo',
-        link: '/about/logo',
-      },
+      // { title: 'Know Bishop Scott', link: '/about/know-bishop-scott' },
+      // { title: 'The Founders', link: '/about/founders' },
+      // {
+      //   title: 'Team',
+      //   link: '/about/team',
+      // },
+      // { title: 'Vision and Mission', link: '/about/vision-and-missions' },
+      // {
+      //   title: 'Logo',
+      //   link: '/about/logo',
+      // },
       // {
       //   title: 'Brochure',
       //   link: null,

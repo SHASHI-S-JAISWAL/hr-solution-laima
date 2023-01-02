@@ -9,7 +9,7 @@ import aboutPageData from './aboutPageData';
 const AdmissionOverview = memo(() => (
   <PageWrapper>
     <PageTitle className="MuiTypography--heading" variant="h4" gutterBottom>
-      KNOW BISHOP SCOTT
+      ABOUT US
     </PageTitle>
     {aboutPageData.knowBishopScott.map(i => (
       <PageParagraph

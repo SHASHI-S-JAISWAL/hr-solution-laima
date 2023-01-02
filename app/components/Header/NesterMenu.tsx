@@ -2,7 +2,7 @@ import React, {useState, useRef, useImperativeHandle} from 'react'
 import {makeStyles} from '@material-ui/core/styles'
 import Menu, {MenuProps} from '@material-ui/core/Menu'
 import MenuItem, {MenuItemProps} from '@material-ui/core/MenuItem'
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+// import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import clsx from 'clsx'
 
 export interface NestedMenuItemProps extends Omit<MenuItemProps, 'button'> {
@@ -59,7 +59,7 @@ const NestedMenuItem = React.forwardRef<
     parentMenuOpen,
     componentType = 'div',
     label,
-    rightIcon = <ArrowForwardIosIcon />,
+    rightIcon,
     children,
     className,
     tabIndex: tabIndexProp,

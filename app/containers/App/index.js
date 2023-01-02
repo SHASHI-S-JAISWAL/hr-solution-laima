@@ -19,7 +19,7 @@ import Footer from 'components/footer copy/Footer';
 
 import GlobalStyle from '../../global-styles';
 import WhyPage from '../whyPage';
-import ContactPage from '../contactPage';
+// import ContactPage from '../contactPage';
 import OverViewPage from '../admissionOverView';
 import { KnowPage, VisionMissionPage, LogoPage } from '../About';
 import EnquiryPage from '../About/Enquiry';
@@ -47,7 +47,7 @@ export default function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route exact path="/about/know-bishop-scott" component={KnowPage} />
+        <Route exact path="/about" component={KnowPage} />
         <Route exact path="/about/logo" component={LogoPage} />
         <Route exact path="/about/team" component={TeamPage} />
         <Route exact path="/about/founders" component={FoundersPage} />
@@ -62,7 +62,7 @@ export default function App() {
         <Route path="/about/enquiry" component={EnquiryPage} />
         <Route path="/features" component={FeaturePage} />
         <Route path="/why-bishop-scott" component={WhyPage} />
-        <Route path="/contact" component={ContactPage} />
+        <Route path="/contact" component={EnquiryPage} />
         <Route path="/admissions/overview" component={OverViewPage} />
         <Route path="" component={NotFoundPage} />
       </Switch>

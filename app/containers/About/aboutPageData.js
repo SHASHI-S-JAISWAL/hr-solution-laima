@@ -18,12 +18,24 @@ export default defineMessages({
     `To inculcate cardinal values for a successful human being such as “Never mistake knowledge for wisdom; one helps you to make a living; the other helps you to make a life".`,
   ],
   knowBishopScott: [
-    `Bishop Scott Group is a syndicate of K-12 and primary schools located in the state of Bihar. The aim of the group is to provide structure and discipline imperative to the development of each child, right from the formative years. `,
-    `The inception of our group transpired with the establishment of Bishop Scott Girls' School in 2009. This school got affiliated to CBSE 10+2 curriculum in the year 2011.`,
-    `Today, the syndicate consists of four campuses- three K-12 schools affiliated to CBSE 10+2 and one primary school. The other two K-12 campuses- Bishop Scott Senior Secondary Girls' School and Bishop Scott Boys' School were launched in 2015 and have been affiliated to CBSE 10+2 in the following years.`,
-    `The essence of Bishop Scott Group is to build an environment for children to achieve academic grace, maturity, strong character and integrity that enables them to face the challenges of the real world. Resolute to impart knowledge which is not limited to classrooms but reaches beyond into various creative aspects of the child, providing a balance between academics and co-curricular activities ensuring the holistic development of each child. `,
-    `The Bishop Scott community entails teachers, students, academicians and professionals imbued with the spirit of freedom, mutual trust and respect. Developed on the pattern of missionary, it creates a strong sense of discipline, love and humanity. `,
-    `Bishop Scott is one of the top tier home-grown brands in the sector of education at Patna, which has successfully been imparting quality education for a decade. `,
+    ` Committed to Excellence`,
+    `Laima HR Soulutions is built with a single mission to be the most successful, creative and ground-breaking consulting agency in India . We work with organisations to increase the quality and speed of recruitment by integrating best practices and resource planning, allowing our clients access to top talents.
+    Our team is perfect matchmaker. We understand companies requirement and provide the exact candidates what they are looking for.`,
+    `With years of experience, our staff has the capabilities and expertise to give your requirment into the shape. At Microstaffing services, we combine our insights and skills to transform your requirment into right candidates. `,
+    `We are attentive to feedback and constantly adhere to both client and candidate requests, our support includes:`,
+
+    `· Dedicated Account Manager`,
+    `· Regular service reviews / KPI Management`,
+
+    `· Compliance and eligibility management, support and advice`,
+
+    `· Specialist payroll teams`,
+
+    `· Robust screening/ suitability process`,
+
+    `· Assessment of candidate till the joining`,
+
+    `· Full project life cycle support,`,
   ],
   logo: `The Bishop Scott logo represents the 'Enlightenment' of society. The sunrays emerging out of a book is a symbol of enlightening the society by educating the children and them radiating limitlessly into the world with skills and knowledge acquired here. Each member of the Bishop Scott community "Gleams with pride and prosperity".`,
   founders: [

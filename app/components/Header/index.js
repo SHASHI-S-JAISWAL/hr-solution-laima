@@ -1,7 +1,7 @@
 import { Menu, MenuItem } from '@material-ui/core';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../../assets/BISHOPSCOTTLOGO.png';
+import Logo from '../../assets/logo.jpeg';
 import './header-style.scss';
 import {
   HeaderComp,
@@ -34,7 +34,7 @@ function Header() {
           <HeaderImg src={Logo} alt=" Logo loading..." />
         </Link>
         <div className="seven">
-          <h1>BISHOP SCOTT GROUP OF SCHOOLS</h1>
+          <h1>Laima HR Solutions</h1>
         </div>
       </HeaderComp>
       <MenuWrapper>

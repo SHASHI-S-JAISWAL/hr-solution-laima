@@ -8,7 +8,7 @@ const EnquiryPage = memo(() => (
     </PageTitle> */}
     <div>
       <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSegwO7U08mF2AGs6N6kINwuhDxusXrtWMWlJFs_KIF45BxzuA/viewform?embedded=true"
+        src="https://app.formbot.com/forms/46436c35-f348-46ae-8005-72035fe23146"
         width="100%"
         height="800px"
         frameBorder="0"
