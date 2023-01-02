@@ -35,34 +35,34 @@ export default defineMessages([
       // },
     ],
   },
-  {
-    title: 'Admissions',
-    submenu: [
-      { title: 'Overview', link: '/admissions/overview' },
-      {
-        title: `Bishop Scott Girls' School`,
-        link: null,
-        externalLink: 'http://bishopscottschool.com/admissions.html',
-      },
-      {
-        title: `Bishop Scott Senior Secondary Girls’ School`,
-        link: null,
-        externalLink: 'http://www.bishopscottssgs.com/en/',
-      },
-      {
-        title: `Bishop Scott Boys’ School`,
-        link: null,
-        externalLink: 'https://bishopscottboysschool.com/web/',
-      },
-    ],
-  },
-  {
-    title: 'Partner with Us',
-    submenu: [
-      { title: 'Why Bishop Scott', link: '/why-bishop-scott' },
-      { title: 'Enquiry', link: 'enquiry' },
-    ],
-  },
+  // {
+  //   title: 'Admissions',
+  //   submenu: [
+  //     { title: 'Overview', link: '/admissions/overview' },
+  //     {
+  //       title: `Bishop Scott Girls' School`,
+  //       link: null,
+  //       externalLink: 'http://bishopscottschool.com/admissions.html',
+  //     },
+  //     {
+  //       title: `Bishop Scott Senior Secondary Girls’ School`,
+  //       link: null,
+  //       externalLink: 'http://www.bishopscottssgs.com/en/',
+  //     },
+  //     {
+  //       title: `Bishop Scott Boys’ School`,
+  //       link: null,
+  //       externalLink: 'https://bishopscottboysschool.com/web/',
+  //     },
+  //   ],
+  // },
+  // {
+  //   title: 'Partner with Us',
+  //   submenu: [
+  //     { title: 'Why Bishop Scott', link: '/why-bishop-scott' },
+  //     { title: 'Enquiry', link: 'enquiry' },
+  //   ],
+  // },
   {
     title: 'Contact',
     link: '/contact',

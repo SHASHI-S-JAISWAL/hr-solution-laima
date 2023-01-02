@@ -39,10 +39,10 @@ export default function App() {
   return (
     <AppWrapper>
       <Helmet
-        titleTemplate="Bishop Scott Group"
-        defaultTitle="Bishop Scott Group"
+        titleTemplate="Laima HR Solutions"
+        defaultTitle="Laima HR Solutions"
       >
-        <meta name="description" content="Bishop Scott Group" />
+        <meta name="description" content="Laima HR Solutions" />
       </Helmet>
       <Header />
       <Switch>

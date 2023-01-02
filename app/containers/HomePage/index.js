@@ -17,7 +17,7 @@ import { compose } from 'redux';
 import { createStructuredSelector } from 'reselect';
 import { useInjectReducer } from 'utils/injectReducer';
 import { useInjectSaga } from 'utils/injectSaga';
-import HoverTiles from '../../components/internals/HoverTiles';
+// import HoverTiles from '../../components/internals/HoverTiles';
 import { MissionStatement } from '../../components/internals/MissionStatement';
 import ImageSwiper from '../../components/swiper/ImageCarausal';
 import { loadRepos } from '../App/actions';
@@ -49,7 +49,7 @@ export function HomePage({ username, onSubmitForm }) {
       <ImageSwiper />
       {/* <Inquire /> */}
       <MissionStatement />
-      <HoverTiles />
+      {/* <HoverTiles /> */}
       {/* <FounderCarausal /> */}
     </article>
   );

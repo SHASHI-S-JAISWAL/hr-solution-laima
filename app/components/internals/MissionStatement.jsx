@@ -28,8 +28,8 @@ export function MissionStatement() {
   //   ];
   return (
     <div className="mission-wrapper ">
-      <div className=" header bold font-32"> Our Premises at a glance</div>
-      <div className="media-group">
+      <div className=" header bold font-32">Laima HR Solutions</div>
+      {/* <div className="media-group">
         <iframe
           src="https://drive.google.com/file/d/1kKomIeCRRVP_y2aTWWMV0VMjG0WOXmGn/preview"
           width="640"
@@ -44,13 +44,26 @@ export function MissionStatement() {
           allow="autoplay"
           title="girls School"
         />
-      </div>
-      {/* {missionArray.map((i) => (
-        <div className="mission mgt-15 " id={i.id}>
-          <div className="title mgb-10 bold font-16 ">{i.title}</div>
-          <div className="text font-14">{i.text}</div>
+      </div> */}
+      {/* {missionArray.map(i => ( */}
+      <div className="mission mgt-15 ">
+        {/* <div className="title mgb-10 bold font-16 ">{i.title}</div> */}
+        <div className="text font-18 text-center mgb">
+          Welcome to Laima HR Solutions, We offers a wide range of consulting
+          services to serve a variety of businesses and clients. Whether you’re
+          a small, local business or a multinational corporation, we can help
+          you reach new levels of success. Get in touch with us today to learn
+          more about our services and what our team can do for you.
         </div>
-      ))} */}
+        <div className="text font-18 text-center">
+          Life Sciences & Healthcare, Manufacturing & Processes, Media &
+          Advertising,Mining & Metals, Power & Energy, Retailing,
+          Telecommunication, E-Commerce, Financial Services & Consulting,
+          Information Technology Infrastructure, Automobile, Banking &
+          Insurance, BPO & KPO and more
+        </div>
+      </div>
+      {/* ))} */}
     </div>
   );
 }
