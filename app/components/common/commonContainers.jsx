@@ -21,7 +21,7 @@ export const PageParagraph = styled(Typography)`
   align-self: center;
   color: #1a1a1a;
   padding: 15px;
-  max-width: 800px;
+  max-width: 900px;
 `;
 
 export const LogoImg = styled.img`

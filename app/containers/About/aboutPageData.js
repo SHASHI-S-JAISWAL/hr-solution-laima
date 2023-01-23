@@ -5,17 +5,43 @@ export default defineMessages({
     `Bishop Scott Girls' School and Bishop Scott Senior Secondary Girls' School are all-girls' schools whereas Bishop Scott Boys' School is an all boys' school with day scholar facilities.`,
     `All applicants are given the opportunity to express their expectations. After a careful assessment the contribution of the schools in the betterment of each child is discussed with the parents and accordingly admissions are fulfilled. `,
   ],
-  vision: [
-    `Our vision is to develop well rounded, confident and responsible individuals who aspire to achieve their full potential. We will achieve this by providing a welcoming, happy, safe and supportive learning environment in which everyone is equal and all achievements are celebrated.`,
-    `We foster our students' love for learning, encourage them to try new and exciting things, and give them a solid foundation to build on. `,
-    `To provide a learner-centric education for children so they can achieve their full potential in the respective fields of education they wish to pursue and build a better world by being competitive, productive and responsible citizens.`,
-  ],
+  // vision: [
+  //   `Our vision is to develop well rounded, confident and responsible individuals who aspire to achieve their full potential. We will achieve this by providing a welcoming, happy, safe and supportive learning environment in which everyone is equal and all achievements are celebrated.`,
+  //   `We foster our students' love for learning, encourage them to try new and exciting things, and give them a solid foundation to build on. `,
+  //   `To provide a learner-centric education for children so they can achieve their full potential in the respective fields of education they wish to pursue and build a better world by being competitive, productive and responsible citizens.`,
+  // ],
   missions: [
     `To provide a safe learning environment and prospect for Holistic development of students`,
     `To create responsible and independent global citizens`,
     `To ignite minds to dream big`,
     `To build life-long learners, thinkers and leaders and allow each student to be an achiever`,
     `To inculcate cardinal values for a successful human being such as “Never mistake knowledge for wisdom; one helps you to make a living; the other helps you to make a life".`,
+  ],
+  whatWeDo: [
+    `Laima is equipped with a team of seasoned HR professionals who very well understand the company’s requirement, our team dedicatedly scrutinizes candidates and identifies the one to suit your portfolio.
+    We strongly believe in inculcating long term relationships with our stakeholders, hence we provide genuine and reliable recruitment solutions to our clients. We know time is more valuable than money, so we ensure to meet all your recruitment requirements before your deadline. 
+    Besides all this, our biggest USP is that we do all our transactions with a humane touch. Our team provides tailor made solution to your needs by getting personally involved in it. In today's competitive world, building strong relationships matter more than ever. We realise the importance of strong relationships and nurture it ,as it not only builds loyalty and trust in a business but also ensures success.`,
+    `Whether you’re a small, local business or a multinational corporation, we can help you reach new levels of success. Get in touch with us today to learn more about our services and what our team can do for you.
+    Life Sciences & Healthcare, Manufacturing & Processes, Media & Advertising,Mining & Metals, Power & Energy, Retailing, Telecommunication, E-Commerce, Financial Services & Consulting, Information Technology Infrastructure, Automobile, Banking & Insurance, BPO & KPO and more.
+    With years of experience, our staff has the capabilities and expertise to give your requirement into the shape. At Laima HR Solutions, we combine our insights and skills to transform your requirement into right candidates.`,
+  ],
+  vision: [
+    `To achieve excellence in business and to exceed expectations of all our stakeholders.
+    Our success shall be built on :-
+
+● Genuine recruitment at affordable prices at minimum possible time
+● Absolute professionalism 
+●	The quality of our services 
+●	The skill and motivation of our people
+`,
+  ],
+  value: [
+    `Our values reflect essential principles, which guide management behaviour ,action and style in the organisation`,
+  ],
+  mission: [
+    `
+To recruit right candidate at the right place and in right time in hassle-free manner to add value to your company. 
+satisfactory high quality management solutions to our customers beyond their expectations`,
   ],
   knowBishopScott: [
     ` Committed to Excellence`,

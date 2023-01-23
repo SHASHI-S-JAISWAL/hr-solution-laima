@@ -13,9 +13,6 @@ import Carausal1 from '../../assets/carausal-1.jpeg';
 import Carausal2 from '../../assets/carausal-2.jpeg';
 import Carausal3 from '../../assets/carausal-3.jpeg';
 import Carausal4 from '../../assets/carausal-4.jpeg';
-import Carausal5 from '../../assets/carausal-5.jpeg';
-import Carausal6 from '../../assets/carausal-6.jpeg';
-
 // install Swiper modules
 SwiperCore.use([Pagination, Navigation]);
 
@@ -25,8 +22,6 @@ export default function ImageSwiper() {
     Carausal2,
     Carausal3,
     Carausal4,
-    Carausal5,
-    Carausal6,
     // require('../../assets/carausal-1.jpeg'),
     // require('../../assets/carausal-2.jpeg'),
     // require('../../assets/carausal-3.jpeg'),

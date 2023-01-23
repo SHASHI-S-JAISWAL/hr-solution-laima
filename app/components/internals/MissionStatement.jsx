@@ -49,18 +49,27 @@ export function MissionStatement() {
       <div className="mission mgt-15 ">
         {/* <div className="title mgb-10 bold font-16 ">{i.title}</div> */}
         <div className="text font-18 text-center mgb">
-          Welcome to Laima HR Solutions, We offers a wide range of consulting
-          services to serve a variety of businesses and clients. Whether you’re
-          a small, local business or a multinational corporation, we can help
-          you reach new levels of success. Get in touch with us today to learn
-          more about our services and what our team can do for you.
+          Laima HR Solutions is created with a vision to provide one stop
+          solution for all your needs related to hiring. We know the value of
+          quality manpower and it's importance in a company's growth and
+          prosperity. At Laima, we ensure recruitment of efficient employees who
+          will prove as assets for the company. Along with employers, we take
+          care of the needs of job seekers too. We act as a bridge between the
+          job seekers and employers and focus on creating a perfect match, which
+          none of the parties will ever regret. Be it startups, IT companies,
+          any mid level organization or MNCs, we are fully equipped to cater to
+          all your recruitment needs.
         </div>
-        <div className="text font-18 text-center">
-          Life Sciences & Healthcare, Manufacturing & Processes, Media &
-          Advertising,Mining & Metals, Power & Energy, Retailing,
-          Telecommunication, E-Commerce, Financial Services & Consulting,
-          Information Technology Infrastructure, Automobile, Banking &
-          Insurance, BPO & KPO and more
+        <div className="text font-18 text-center mgt-15">
+          We provide a complete range of management consultancy services in the
+          area of human resource management. We help people in building better
+          companies by facilitating recruitment of quality human capital. Our
+          sole motive is to be the most successful HR consulting agency in the
+          country and we know this cannot be achieved without our customer's
+          satisfaction. So we give utmost priority to make all our stakeholders
+          happy and content. We work with organisations to increase the quality
+          and speed of recruitment by integrating best practices and resource
+          planning, allowing our clients access to top talents.{' '}
         </div>
       </div>
       {/* ))} */}
